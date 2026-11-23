@@ -1,0 +1,12 @@
+.neon
+node_modules/
+.env.local
+csapat.env.local
+.env
+.env.*
+.venv/
+__pycache__/
+*.pdf
+data_raw/*.zip
+.ipynb_checkpoints/
+data_clean/polish_clean.csv

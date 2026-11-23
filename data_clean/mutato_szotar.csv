@@ -1,0 +1,65 @@
+mutato,leiras,csoport,hiany_arany
+X1,net profit / total assets,jövedelmezőség,0.0002
+X2,total liabilities / total assets,eladósodottság,0.0002
+X3,working capital / total assets,likviditás,0.0002
+X4,current assets / short-term liabilities,likviditás,0.0031
+X5,[(cash + short-term securities + receivables - short-term liabilities) / (operating expenses - depreciation)] * 365,likviditás,0.0021
+X6,retained earnings / total assets,jövedelmezőség,0.0002
+X7,EBIT / total assets,jövedelmezőség,0.0002
+X8,book value of equity / total liabilities,eladósodottság,0.0022
+X9,sales / total assets,hatékonyság,0.0002
+X10,equity / total assets,eladósodottság,0.0002
+X11,(gross profit + extraordinary items + financial expenses) / total assets,jövedelmezőség,0.001
+X12,gross profit / short-term liabilities,eladósodottság,0.0031
+X13,(gross profit + depreciation) / sales,jövedelmezőség,0.0029
+X14,(gross profit + interest) / total assets,jövedelmezőség,0.0002
+X15,(total liabilities * 365) / (gross profit + depreciation),eladósodottság,0.0008
+X16,(gross profit + depreciation) / total liabilities,eladósodottság,0.0022
+X17,total assets / total liabilities,eladósodottság,0.0022
+X18,gross profit / total assets,jövedelmezőség,0.0002
+X19,gross profit / sales,jövedelmezőség,0.0029
+X20,(inventory * 365) / sales,hatékonyság,0.0029
+X21,sales (n) / sales (n-1),növekedés,0.1357
+X22,profit on operating activities / total assets,jövedelmezőség,0.0002
+X23,net profit / sales,jövedelmezőség,0.0029
+X24,gross profit (in 3 years) / total assets,jövedelmezőség,0.0214
+X25,(equity - share capital) / total assets,eladósodottság,0.0002
+X26,(net profit + depreciation) / total liabilities,eladósodottság,0.0022
+X27,profit on operating activities / financial expenses,eladósodottság,0.0639
+X28,working capital / fixed assets,likviditás,0.0187
+X29,logarithm of total assets,méret,0.0002
+X30,(total liabilities - cash) / sales,eladósodottság,0.0029
+X31,(gross profit + interest) / sales,jövedelmezőség,0.0029
+X32,(current liabilities * 365) / cost of products sold,likviditás,0.0085
+X33,operating expenses / short-term liabilities,likviditás,0.0031
+X34,operating expenses / total liabilities,eladósodottság,0.0022
+X35,profit on sales / total assets,jövedelmezőség,0.0002
+X36,total sales / total assets,hatékonyság,0.0002
+X37,(current assets - inventories) / long-term liabilities,likviditás,0.438
+X38,constant capital / total assets,eladósodottság,0.0002
+X39,profit on sales / sales,jövedelmezőség,0.0029
+X40,(current assets - inventory - receivables) / short-term liabilities,likviditás,0.0031
+X41,total liabilities / ((profit on operating activities + depreciation) * (12/365)),eladósodottság,0.0175
+X42,profit on operating activities / sales,jövedelmezőség,0.0029
+X43,rotation receivables + inventory turnover in days,hatékonyság,0.0029
+X44,(receivables * 365) / sales,hatékonyság,0.0029
+X45,net profit / inventory,jövedelmezőség,0.0496
+X46,(current assets - inventory) / short-term liabilities,likviditás,0.0031
+X47,(inventory * 365) / cost of products sold,hatékonyság,0.0069
+X48,EBITDA (profit on operating activities - depreciation) / total assets,jövedelmezőség,0.0002
+X49,EBITDA (profit on operating activities - depreciation) / sales,jövedelmezőség,0.0029
+X50,current assets / total liabilities,likviditás,0.0022
+X51,short-term liabilities / total assets,eladósodottság,0.0002
+X52,(short-term liabilities * 365) / cost of products sold,likviditás,0.007
+X53,equity / fixed assets,eladósodottság,0.0187
+X54,constant capital / fixed assets,eladósodottság,0.0187
+X55,working capital,likviditás,0.0
+X56,(sales - cost of products sold) / sales,jövedelmezőség,0.0029
+X57,(current assets - inventory - short-term liabilities) / (sales - gross profit - depreciation),likviditás,0.0002
+X58,total costs / total sales,jövedelmezőség,0.0019
+X59,long-term liabilities / equity,eladósodottság,0.0002
+X60,sales / inventory,hatékonyság,0.0497
+X61,sales / receivables,hatékonyság,0.0023
+X62,(short-term liabilities * 365) / sales,likviditás,0.0029
+X63,sales / short-term liabilities,likviditás,0.0031
+X64,sales / fixed assets,hatékonyság,0.0187
