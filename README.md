@@ -11,6 +11,7 @@ A csődöt megelőző 1–5 év pénzügyi mutatóinak elemzése a *Polish compa
 - `scripts/load_neon.py` – feltöltés a Neon adatbázisba
 - `notebooks/elemzes.ipynb` – első elemzések (leíró, modellek, klaszterezés)
 - `abrak/` – ábrák
+- `MASTER_PROMPT.md` – bemásolható prompt a saját Claude-otokhoz, hogy egyből képben legyen
 - `Csapat_osszefoglalo.docx` – rövid összefoglaló a csapatnak
 - `Adatelokeszites_es_kutatasi_kerdesek.docx` – hosszabb, dolgozatba szánt változat
 
