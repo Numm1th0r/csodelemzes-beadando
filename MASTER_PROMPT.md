@@ -1,6 +1,6 @@
 # Master prompt
 
-Másold be az alábbi blokkot a saját Claude-od elejére, és írd be, melyik rész a tiéd (A / B / C).
+Másold be az alábbi blokkot a saját Claude-od elejére, hogy egyből képben legyen a projekttel.
 Az adatbázis linkjét (DATABASE_URL) privátban kapod, tedd egy `.env` fájlba, és ne commitold.
 
 ```
@@ -44,13 +44,15 @@ HOL VAN
   - Tábla „mutato_szotar”: mutato, leiras, csoport, hiany_arany.
   - Nézetek: v_csodarany, v_kulcsmutatok_median.
 
-KUTATÁSI KÉRDÉSEK ÉS FELOSZTÁS
-- K1: Melyik mutatócsoport választja el legjobban a csődös cégeket a működőktől?
-- K2: Hány évvel a csőd előtt jelennek meg az eltérések, és melyik mutatónál a legkorábban?
-- K3: Mennyire jelezhető előre a csőd? (Gépi tanulás összevetve az Altman Z-score-ral.)
-- A, figyelmeztető jelek (K1, K2): mediánok évenként, Mann–Whitney próba, egyváltozós AUC.
-- B, előrejelzés (K3): logisztikus regresszió, döntési fa, Random Forest, XGBoost. Mérőszámok: AUC, recall, F1 (az accuracy félrevezető). Mely mutatók a legfontosabbak?
-- C, bukási típusok: k-közép klaszterezés a csődös cégeken, és az Altman Z'' összevetése.
+ÖTLETEK (csak javaslatok, nincs kiosztva és nincs eldöntve)
+Lehetséges kutatási kérdések:
+- Melyik mutatócsoport választja el legjobban a csődös cégeket a működőktől?
+- Hány évvel a csőd előtt jelennek meg az eltérések, és melyik mutatónál a legkorábban?
+- Mennyire jelezhető előre a csőd? (Gépi tanulás összevetve az Altman Z-score-ral.)
+Lehetséges irányok és módszerek:
+- Figyelmeztető jelek: mediánok évenként, Mann–Whitney próba, egyváltozós AUC.
+- Előrejelzés: logisztikus regresszió, döntési fa, Random Forest, XGBoost. Mérőszámok: AUC, recall, F1 (az accuracy félrevezető). Mely mutatók a legfontosabbak?
+- Bukási típusok: k-közép klaszterezés a csődös cégeken, és az Altman Z'' összevetése.
 
 ELSŐ EREDMÉNYEK
 - A jövedelmezőség jelez a legerősebben: a ROA 5 évvel a csőd előtt 2% (a működőknél 8%), az utolsó évben negatív.
@@ -58,8 +60,6 @@ ELSŐ EREDMÉNYEK
 - A likviditás csak az utolsó 1–2 évben romlik meg igazán.
 - Az XGBoost AUC-ja 0,92–0,96, az Altman Z-score-é csak 0,61–0,71.
 - Furcsaság: 5 évvel előre jobb az AUC, mint 2–4 évvel előre. Ezt még ellenőrizni kell.
-
-AZ ÉN RÉSZEM: [ide írd: A / B / C]
 
 HOGYAN DOLGOZZ
 - Magyarul, röviden válaszolj.
